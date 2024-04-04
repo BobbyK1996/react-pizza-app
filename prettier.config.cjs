@@ -1,5 +1,7 @@
 // prettier.config.js
-module.exports = {
+const config = {
   plugins: ['prettier-plugin-tailwindcss'],
   singleQuote: true,
 };
+
+export default config;
