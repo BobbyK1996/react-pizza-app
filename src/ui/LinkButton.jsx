@@ -4,7 +4,7 @@ function LinkButton({ children, to }) {
   const navigate = useNavigate();
 
   const className =
-    'text-sm text-blue-500 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:underline';
+    'text-sm text-blue-500 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:underline md:text-blue-400';
 
   if (to === '-1')
     return (
